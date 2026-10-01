@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi — Mahdi Mumtaaz</title>
+<style>
+  :root {
+    --hijau: #0a3b2a;
+    --hijau-muda: #0f5c41;
+    --emas: #8a6d1f;
+    --teks: #1c2321;
+    --redup: #5b6763;
+    --garis: #dfe5e1;
+    --latar: #fbfdfb;
+    --kartu: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --hijau: #99d3b8;
+      --hijau-muda: #7fc4a6;
+      --emas: #d4af37;
+      --teks: #d8e6df;
+      --redup: #9aa8a2;
+      --garis: #2b3733;
+      --latar: #0a1612;
+      --kartu: #121e1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 64px;
+    background: var(--latar);
+    color: var(--teks);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  header {
+    padding: 44px 0 20px;
+    border-bottom: 3px solid var(--hijau);
+    margin-bottom: 28px;
+  }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 8px; color: var(--hijau); }
+  .tanggal { color: var(--redup); font-size: .9rem; margin: 0; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 34px 0 10px;
+    color: var(--hijau);
+    border-left: 4px solid var(--emas);
+    padding-left: 12px;
+  }
+  h3 { font-size: 1rem; margin: 22px 0 6px; }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  .sorot {
+    background: var(--kartu);
+    border: 1px solid var(--garis);
+    border-left: 5px solid var(--emas);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 18px 0;
+  }
+  .sorot p:first-child { margin-top: 0; }
+  .sorot p:last-child { margin-bottom: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    font-size: .94rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--garis);
+    vertical-align: top;
+  }
+  th { color: var(--hijau); font-weight: 600; }
+  code {
+    background: var(--kartu);
+    border: 1px solid var(--garis);
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-size: .88em;
+  }
+  footer {
+    margin-top: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--garis);
+    color: var(--redup);
+    font-size: .9rem;
+  }
+  a { color: var(--hijau-muda); }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Kebijakan Privasi — Mahdi Mumtaaz</h1>
+  <p class="tanggal">Berlaku sejak 1 Oktober 2026 &middot; Terakhir diperbarui 1 Oktober 2026</p>
+</header>
+
+<p><strong>Mahdi Mumtaaz</strong> adalah aplikasi jadwal waktu salat dan Al-Qur'an untuk
+telepon pintar Android. Kebijakan ini menjelaskan data apa yang disentuh aplikasi, dan yang
+lebih penting: apa yang <strong>tidak</strong> disentuhnya.</p>
+
+<div class="sorot">
+  <p><strong>Ringkasnya:</strong> aplikasi ini <strong>tidak meminta izin internet sama
+  sekali</strong>. Artinya secara teknis mustahil bagi aplikasi ini mengirim data Anda ke mana
+  pun &mdash; tidak ada jalur keluarnya.</p>
+  <p>Kami tidak punya server, tidak punya akun pengguna, tidak memasang iklan, dan tidak
+  memasang alat pelacak atau analitik apa pun.</p>
+</div>
+
+<h2>Data yang disimpan di HP Anda</h2>
+
+<p>Semua ini tersimpan <strong>hanya di dalam HP Anda</strong> dan tidak pernah dikirim ke
+siapa pun:</p>
+
+<table>
+  <tr><th>Data</th><th>Untuk apa</th></tr>
+  <tr><td>Lokasi perkiraan (tingkat kota)</td><td>menghitung jadwal waktu salat dan arah kiblat</td></tr>
+  <tr><td>Kota atau lokasi yang Anda pilih</td><td>menyimpan pilihan lokasi Anda</td></tr>
+  <tr><td>Ayat yang Anda tandai (favorit)</td><td>menampilkan daftar tersimpan</td></tr>
+  <tr><td>Penanda bacaan terakhir</td><td>menawarkan "lanjut membaca"</td></tr>
+  <tr><td>Setelan aplikasi</td><td>metode hisab, pilihan pengingat, dan sebagainya</td></tr>
+</table>
+
+<p>Data ini terhapus seluruhnya bila Anda menghapus aplikasi.</p>
+
+<h2>Lokasi</h2>
+
+<p>Aplikasi meminta izin <strong>lokasi perkiraan</strong>
+(<code>ACCESS_COARSE_LOCATION</code>), bukan lokasi presisi. Lokasi hanya dipakai
+<strong>di dalam HP</strong> untuk menghitung jadwal salat dan arah kiblat. Aplikasi juga tidak
+menyalakan GPS terus-menerus: yang dipakai lebih dulu adalah posisi tersimpan, dan pembaruan
+hanya dilakukan bila Anda menekan tombolnya.</p>
+
+<p>Lokasi Anda tidak dikirim ke mana pun, tidak disimpan di server, dan tidak dibagikan.</p>
+
+<h2>Notifikasi</h2>
+
+<p>Pengingat waktu salat dibuat <strong>di dalam HP Anda sendiri</strong> oleh sistem alarm
+Android. Tidak ada pemberitahuan yang datang dari server, karena aplikasi ini tidak punya
+server.</p>
+
+<h2>Cadangan otomatis Android</h2>
+
+<p>Android memiliki fitur <strong>Cadangan Otomatis</strong> (Auto Backup) yang dapat menyalin
+data aplikasi ke <strong>akun Google Anda sendiri</strong>, supaya data itu pulih saat Anda
+mengganti HP atau memasang ulang aplikasi. Fitur ini dijalankan oleh sistem Android dan Google,
+<strong>bukan oleh kami</strong>: data itu masuk ke akun Google Anda, dan kami tidak punya akses
+ke sana.</p>
+
+<p>Bila Anda tidak menghendaki cadangan itu, matikan lewat
+<strong>Pengaturan HP &rarr; Google &rarr; Cadangan</strong>.</p>
+
+<h2>Izin yang diminta aplikasi</h2>
+
+<p>Seluruhnya ada lima, dan masing-masing hanya dipakai untuk keperluan yang tertulis:</p>
+
+<table>
+  <tr><th>Izin</th><th>Untuk apa</th></tr>
+  <tr><td><code>ACCESS_COARSE_LOCATION</code></td><td>menghitung jadwal salat dan kiblat (di dalam HP saja)</td></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>menampilkan pengingat waktu salat</td></tr>
+  <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>agar pengingatnya tepat waktu</td></tr>
+  <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>memasang ulang pengingat setelah HP dinyalakan</td></tr>
+  <tr><td><code>VIBRATE</code></td><td>getaran pada pengingat, bila Anda menyalakannya</td></tr>
+</table>
+
+<p>Aplikasi <strong>tidak</strong> meminta izin kamera, mikrofon, kontak, berkas penyimpanan,
+maupun internet.</p>
+
+<h2>Anak-anak</h2>
+
+<p>Aplikasi ini tidak ditujukan khusus untuk anak-anak, dan tidak mengumpulkan data pribadi
+siapa pun &mdash; termasuk anak-anak.</p>
+
+<h2>Isi Al-Qur'an</h2>
+
+<p>Teks Al-Qur'an bersumber dari Kementerian Agama Republik Indonesia. Terjemahan bahasa
+Indonesia diambil melalui perantara data equran.id. Keterangan lengkapnya ada di halaman
+"Sumber &amp; Lisensi" di dalam aplikasi. Aplikasi ini disebarkan <strong>gratis</strong>,
+tanpa iklan, dan tidak memperjualbelikan isi maupun data.</p>
+
+<h2>Perubahan kebijakan ini</h2>
+
+<p>Bila ada perubahan, versi barunya akan diterbitkan di alamat yang sama dengan tanggal
+pembaruan yang baru. Karena aplikasi ini tidak mengumpulkan kontak apa pun, kami tidak bisa
+memberitahu Anda secara langsung &mdash; silakan periksa halaman ini bila diperlukan.</p>
+
+<h2>Hubungi kami</h2>
+
+<p>Pertanyaan mengenai kebijakan ini dapat dikirim ke:</p>
+
+<div class="sorot">
+  <p><strong>Pengembang:</strong> Bajayo Kito<br>
+  <strong>Surel:</strong> <a href="mailto:silvi.mobil77@gmail.com">silvi.mobil77@gmail.com</a></p>
+</div>
+
+<footer>
+  <p>Mahdi Mumtaaz &mdash; jadwal waktu salat dan Al-Qur'an untuk Android.</p>
+</footer>
+
+</main>
+</body>
+</html>
